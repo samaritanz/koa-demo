@@ -32,3 +32,8 @@ if (isProd) {
     //   dialect: "mysql",
   };
 }
+
+module.exports = {
+  REDIS_CONF,
+  MYSQL_CONF,
+};
