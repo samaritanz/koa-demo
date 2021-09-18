@@ -8,11 +8,11 @@
     "rules": {
         "indent": ["error", 2],
         "quotes": [
-            "warn",
-            "single",
-            {
-              "allowTemplateLiterals": true
-            }
+            // "warn",
+            // "se",
+            // {
+            //   "allowTemplateLiterals": true
+            // }
         ]
         // "semi": [
         //     "error",
