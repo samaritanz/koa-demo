@@ -4,7 +4,7 @@
  */
 
 class BaseModel {
-  constructor(errno, data, message) {
+  constructor({ errno, data, message }) {
     this.errno = errno;
     if (data) {
       this.data = data;

@@ -8,7 +8,7 @@ const { DEFAULT_PICTURE } = require("../conf/constant");
  * 用户默认头像
  * @param {Object} obj 用户对象
  */
-function _formatUserPicture(obg) {
+function _formatUserPicture(obj) {
   if (obj.picture == null) {
     obj.picture = DEFAULT_PICTURE;
   }
