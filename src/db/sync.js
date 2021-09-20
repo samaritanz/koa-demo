@@ -4,7 +4,7 @@
 
 const seq = require("./seq");
 // require("../../../sequelize-test/src/model");
-
+require("./model");
 seq.authenticate().then(
   () => {
     console.log("connect successful");
